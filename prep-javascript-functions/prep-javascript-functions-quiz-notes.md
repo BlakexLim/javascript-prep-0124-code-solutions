@@ -9,7 +9,7 @@ Defining, calling, returning, naming, and anonymous functions
 - How do you call a function?
 By writing the function's name with () parenthesis after
 - What is the difference between a parameter and an argument?
-
+A parameter is a placeholder for an argument to be passed into.
 ## Notes
 
 All student notes should be written here.
