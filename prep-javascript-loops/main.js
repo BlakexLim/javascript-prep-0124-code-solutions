@@ -1,11 +1,9 @@
-
-function whileLoop1 () {
-  let newArray = []
-  let i = 0
+function whileLoop1() {
+  const newArray = [];
+  let i = 0;
   while (i < 10) {
     newArray.push(i);
     i++;
-
   }
 
   return newArray;
@@ -13,12 +11,12 @@ function whileLoop1 () {
 
 console.log(whileLoop1(0));
 
-function whileLoop2 () {
-  let newArray2 = []
-  let i = 0
+function whileLoop2() {
+  const newArray2 = [];
+  let i = 0;
   while (i < 19) {
     newArray2.push(i);
-    i+=2;
+    i += 2;
   }
 
   return newArray2;
@@ -26,8 +24,8 @@ function whileLoop2 () {
 
 console.log(whileLoop2(0));
 
-function forLoop1 () {
-  let newArray = []
+function forLoop1() {
+  const newArray = [];
 
   for (let i = 0; i < 10; i++) {
     newArray.push(i);
@@ -38,9 +36,9 @@ function forLoop1 () {
 
 console.log(forLoop1(0));
 
-function forLoop2 () {
+function forLoop2() {
   for (let i = 100; i <= 100 && i >= 0; i--) {
-console.log('Time till explosion ' + i + '!')
+    console.log('Time till explosion ' + i + '!');
   }
 }
 
@@ -53,21 +51,21 @@ const object = {
   invention: 'analytical engine',
 };
 
-function forInLoop1 () {
-let propArray = [];
+function forInLoop1() {
+  const propArray = [];
   for (const x in object) {
-  propArray.push(`${x}`);
+    propArray.push(`${x}`);
   }
   return propArray;
 }
 
 console.log(forInLoop1());
 
-function forInLoop2 () {
-  let propArray = [];
-    for (const x in object) {
-      propArray.push(`${object[x]}`)
-    };
+function forInLoop2() {
+  const propArray = [];
+  for (const x in object) {
+    propArray.push(`${object[x]}`);
+  }
   return propArray;
 }
 
